@@ -1,0 +1,27 @@
+.scrollable-list {
+  max-height: 20rem;
+  overflow-y: auto; 
+}
+
+.scrollable-list::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+  background: #f1f1f19d;
+  border-radius: 10px; 
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background: rgb(27, 216, 216); 
+  border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+  background: #55555579;
+}
+
+.scrollable-list {
+  scrollbar-width: thin;
+  scrollbar-color: #88888881 #f1f1f1;
+}
